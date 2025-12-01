@@ -28,5 +28,81 @@
             opacity: 0.9;
         }
 
-        .projects
+        .projects {
+            margin: 40px auto;
+            max-width: 900px;
+        }
+
+        .project-box {
+            background: #ffffff;
+            color: #333;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .project-box:hover {
+            transform: translateY(-7px);
+            box-shadow: 0px 12px 30px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            margin: 0 0 15px 0;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        a.btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 10px;
+            background: #3f51b5;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.25s;
+        }
+
+        a.btn:hover {
+            background: #283593;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>תיק עבודות – Naama</h1>
+    <p>ברוכה הבאה לתיק העבודות שלי! כאן תוכלו למצוא את כל הפרויקטים שבניתי במסגרת לימודי דאטה אנליסט.</p>
+</header>
+
+<div class="projects">
+
+    <div class="project-box">
+        <h2>פרויקט SQL – בניית בסיס נתונים</h2>
+        <a class="btn" href="https://github.com/naama318/-/blob/main/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%201.sql" target="_blank">פתיחת הפרויקט</a>
+    </div>
+
+    <div class="project-box">
+        <h2>פרויקט SQL – שאילתות מתקדמות</h2>
+        <a class="btn" href="https://github.com/naama318/-2/blob/main/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%202.sql" target="_blank">פתיחת הפרויקט</a>
+    </div>
+
+    <div class="project-box">
+        <h2>פרויקט Python</h2>
+        <a class="btn" href="https://github.com/naama318/-3/blob/main/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%203.pdf" target="_blank">פתיחת הפרויקט</a>
+    </div>
+
+    <div class="project-box">
+        <h2>פרויקט Power BI</h2>
+        <a class="btn" href="https://github.com/naama318/-4/blob/main/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%204.pdf" target="_blank">פתיחת הדוח</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
 
