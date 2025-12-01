@@ -5,39 +5,69 @@
     <title>תיק עבודות – Naama</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
             margin: 0;
-            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: linear-gradient(135deg, #6fb1fc, #4364f7, #3f51b5);
+            background-attachment: fixed;
+            color: #fff;
             text-align: center;
         }
+
         header {
-            background: #4a90e2;
-            padding: 30px 10px;
-            color: white;
+            padding: 40px 10px;
         }
+
         h1 {
-            margin: 0;
-            font-size: 36px;
+            font-size: 40px;
+            margin-bottom: 10px;
+            font-weight: 700;
         }
+
         p {
-            font-size: 18px;
+            font-size: 20px;
+            opacity: 0.9;
         }
+
         .projects {
-            margin-top: 40px;
+            margin: 40px auto;
+            max-width: 900px;
         }
+
         .project-box {
-            background: white;
-            width: 60%;
-            margin: 15px auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px #ccc;
+            background: #ffffff;
+            color: #333;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
         }
-        a {
-            text-decoration: none;
+
+        .project-box:hover {
+            transform: translateY(-7px);
+            box-shadow: 0px 12px 30px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            margin: 0 0 15px 0;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        a.btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 10px;
+            background: #3f51b5;
+            color: white;
             font-weight: bold;
-            color: #4a90e2;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.25s;
+        }
+
+        a.btn:hover {
+            background: #283593;
         }
     </style>
 </head>
@@ -45,29 +75,31 @@
 
 <header>
     <h1>תיק עבודות – Naama</h1>
-    <p>ברוכה הבאה לתיק העבודות שלי! כאן ניתן למצוא את כל הפרויקטים שבניתי במסגרת הקורס.</p>
+    <p>ברוכה הבאה לתיק העבודות שלי! כאן תוכלו למצוא את כל הפרויקטים שבניתי במסגרת לימודי דאטה אנליסט.</p>
 </header>
 
 <div class="projects">
+
     <div class="project-box">
         <h2>פרויקט SQL – בניית בסיס נתונים</h2>
-        <a href="https://github.com/naama318/-">לעיון בפרויקט</a>
+        <a class="btn" href="https://github.com/naama318/-/blob/main/SQLProject1.sql" target="_blank">פתיחת הפרויקט</a>
     </div>
 
     <div class="project-box">
         <h2>פרויקט SQL – שאילתות מתקדמות</h2>
-        <a href="https://github.com/naama318/-2">לעיון בפרויקט</a>
+        <a class="btn" href="https://github.com/naama318/-2/blob/main/SQLProject2.sql" target="_blank">פתיחת הפרויקט</a>
     </div>
 
     <div class="project-box">
         <h2>פרויקט Python</h2>
-        <a href="https://github.com/naama318/-3">לעיון בפרויקט</a>
+        <a class="btn" href="https://github.com/naama318/-3/blob/main/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%203.pdf" target="_blank">פתיחת הפרויקט</a>
     </div>
 
     <div class="project-box">
         <h2>פרויקט Power BI</h2>
-        <a href="https://github.com/naama318/-4">לעיון בפרויקט</a>
+        <a class="btn" href="https://github.com/naama318/-4/blob/main/PowerBI_Project.pdf" target="_blank">פתיחת הדוח (PDF)</a>
     </div>
+
 </div>
 
 </body>
